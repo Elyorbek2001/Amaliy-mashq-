@@ -1,0 +1,138 @@
+aside {
+  width: 240px;
+  height: calc(100vh - 56px);
+  background-color: #212121;
+}
+
+aside nav {
+  padding: 12px 0px;
+}
+aside nav b {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  color: #AAAAAA;
+  margin: 0 0 24px 24px;
+}
+
+aside nav ul li {
+  list-style: none;
+  height: 40px;
+}
+aside nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 0px 24px;
+}
+aside nav ul li a .link-imag {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+aside nav ul li:last-child {
+  border-bottom: 1px solid #303030;
+}
+
+header {
+  background-color: #212121;
+  height: 56px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header > * {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+header .middle {
+  gap: 0;
+}
+header .middle input {
+  height: 40px;
+  width: 350px;
+  background-color: #121212;
+  border-radius: 2px 0px 0px 2px;
+  border: none;
+}
+header .middle input::-moz-placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  color: #AAAAAA;
+  padding-left: 8px;
+}
+header .middle input::placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  color: #AAAAAA;
+  padding-left: 8px;
+}
+header .middle button {
+  width: 64px;
+  height: 40px;
+  background: #303030;
+  border: 1px solid #303030;
+  border-radius: 0px 2px 2px 0px;
+}
+header .right .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(376px, 2fr));
+  padding: 24px;
+  gap: 16px;
+}
+main .video-container {
+  width: 100%;
+}
+main .video-container .video-thumbail {
+  height: 155px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .video-container .video-detail-container {
+  display: flex;
+  gap: 12px;
+}
+main .video-container .video-author-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+main .video-container .video-title {
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+main .video-container span {
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  color: #AAAAAA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.aside-main-container {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}/*# sourceMappingURL=global.css.map */

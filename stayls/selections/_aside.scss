@@ -1,0 +1,41 @@
+aside {
+    width: 240px;
+    height: calc(100vh - 56px);
+    background-color: $primaryColor;
+   
+
+
+}
+
+aside nav {
+    padding: 12px 0px; 
+
+    b {
+        display: block;
+        font-size: 14px;
+        line-height: 16px;
+        color: #AAAAAA;
+        margin: 0 0 24px 24px;
+    }
+}
+aside nav ul li {
+    list-style: none;
+    height: 40px;
+    a {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        color: white;
+        text-decoration: none;
+        padding: 0px 24px;
+
+        .link-imag{
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+        }
+    }
+    &:last-child{
+        border-bottom: 1px solid #303030;
+    }
+}

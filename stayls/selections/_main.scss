@@ -1,0 +1,36 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(376px, 2fr));
+    padding: 24px;
+    gap: 16px;
+    .video-container {
+       width: 100%;
+        .video-thumbail{
+            height: 155px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .video-detail-container{
+            display: flex;
+            gap: 12px;
+        }
+        .video-author-avatar{
+           width: 36px; 
+           height: 36px;
+           border-radius: 100%;
+        }
+
+        .video-title{
+            display: block;
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+        }
+        span {
+            display: block;
+            font-size: 12px;
+            line-height: 14px;
+            color: #AAAAAA;
+        }
+    }
+}

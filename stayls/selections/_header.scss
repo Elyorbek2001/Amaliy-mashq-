@@ -1,0 +1,54 @@
+header {
+    background-color: $primaryColor;
+    height: 56px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+    &> * {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    
+    .middle {
+        gap: 0;
+
+        input {
+            height: 40px;
+            width: 350px;
+            background-color: $secondaryColor;
+            border-radius: 2px 0px 0px 2px;
+            border: none;
+
+            &::placeholder{
+                font-size: 16px;
+                line-height: 19px;
+                color: #AAAAAA;
+                padding-left: 8px;
+            }
+        }
+
+        button {
+            width: 64px;
+            height: 40px;
+            background: #303030;
+            border: 1px solid #303030;
+            border-radius: 0px 2px 2px 0px;
+            
+        }
+    }
+    .right{
+       
+        .avatar{
+            
+           width: 32px; 
+           height: 32px;
+           border-radius: 100%;
+        }
+    }
+
+}
